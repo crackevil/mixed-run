@@ -1,6 +1,6 @@
 import unittest
 import asyncio
-from mixed-run import MixedRunner
+from mixed_run import MixedRunner
 import time
 import timeit
 

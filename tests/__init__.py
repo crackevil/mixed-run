@@ -1,6 +1,6 @@
 import unittest
 import asyncio
-from generic_pool.mixed_run import MixedRunner
+from mixed-run import MixedRunner
 import time
 import timeit
 

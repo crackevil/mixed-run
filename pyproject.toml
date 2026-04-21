@@ -1,0 +1,30 @@
+
+[project]
+name = "mixed-run"
+version = "1.0.0"
+description = "run function sync or async"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords = ["asyncio", "threading"]
+requires-python = ">=3.8"
+dependencies = [
+    "janus",
+	"nest_asyncio"
+]
+
+[project.urls]
+Homepage = "https://github.com/crackevil/mixed-run"
+Repository = "https://github.com/crackevil/mixed-run"
+Documentation = "https://github.com/crackevil/mixed-run#readme"
+
